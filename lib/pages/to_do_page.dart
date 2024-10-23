@@ -16,10 +16,10 @@ class _ToDoPageState extends State<ToDoPage> {
   ToDoDB db = ToDoDB();
 
   @override
-  void initState(){
-    if(myBox.get('TODOLIST') == null){
+  void initState() {
+    if (myBox.get('TODOLIST') == null) {
       db.createInitalData();
-    } else{
+    } else {
       db.loadData();
     }
     super.initState();
@@ -69,12 +69,10 @@ class _ToDoPageState extends State<ToDoPage> {
       backgroundColor: Colors.yellow[200],
       appBar: AppBar(
         backgroundColor: Colors.yellow,
-        title: const Center(
-          child: Text(
-            'Cool App v2',
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-            ),
+        title: const Text(
+          'To Do',
+          style: TextStyle(
+            color: Colors.black,
           ),
         ),
       ),

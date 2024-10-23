@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "131323059609",
+    "project_id": "to-do-app-36ef9",
+    "storage_bucket": "to-do-app-36ef9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131323059609:android:df5caa6d111e7b25b78708",
+        "android_client_info": {
+          "package_name": "com.vibrainium_man.to_do"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD9a7-_U4Jv3mABn8aQjz3y2CNjHICg0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
